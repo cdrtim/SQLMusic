@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811551441E2DCB8B00EC4682 /* VCBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811551431E2DCB8B00EC4682 /* VCBase.swift */; };
+		811551461E2DCBC500EC4682 /* VCTableBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811551451E2DCBC500EC4682 /* VCTableBase.swift */; };
+		811551481E2DCF7800EC4682 /* VCColectionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811551471E2DCF7800EC4682 /* VCColectionBase.swift */; };
+		8115514B1E2DCFD000EC4682 /* ViewSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115514A1E2DCFD000EC4682 /* ViewSongs.swift */; };
+		8115514D1E2DCFE200EC4682 /* ViewAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115514C1E2DCFE200EC4682 /* ViewAlbums.swift */; };
+		8115514F1E2DCFF800EC4682 /* ViewArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115514E1E2DCFF800EC4682 /* ViewArtists.swift */; };
+		811551511E2DD00E00EC4682 /* ViewPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811551501E2DD00E00EC4682 /* ViewPlaylists.swift */; };
 		81CB7EA31E25E7980083B34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EA21E25E7980083B34B /* AppDelegate.swift */; };
 		81CB7EA51E25E7980083B34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EA41E25E7980083B34B /* ViewController.swift */; };
 		81CB7EA81E25E7980083B34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CB7EA61E25E7980083B34B /* Main.storyboard */; };
 		81CB7EAA1E25E7980083B34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CB7EA91E25E7980083B34B /* Assets.xcassets */; };
 		81CB7EAD1E25E7980083B34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CB7EAB1E25E7980083B34B /* LaunchScreen.storyboard */; };
+		81CB7EC11E25E7B70083B34B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EB61E25E7B70083B34B /* FMDatabase.m */; };
+		81CB7EC21E25E7B70083B34B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EB81E25E7B70083B34B /* FMDatabaseAdditions.m */; };
+		81CB7EC31E25E7B70083B34B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EBA1E25E7B70083B34B /* FMDatabasePool.m */; };
+		81CB7EC41E25E7B70083B34B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EBC1E25E7B70083B34B /* FMDatabaseQueue.m */; };
+		81CB7EC51E25E7B70083B34B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7EBF1E25E7B70083B34B /* FMResultSet.m */; };
+		81CB7EC61E25E7B70083B34B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81CB7EC01E25E7B70083B34B /* Info.plist */; };
+		81CB7EC91E25E8260083B34B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CB7EC81E25E8260083B34B /* libsqlite3.dylib */; };
+		81CB7ECB1E25E83D0083B34B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CB7ECA1E25E83D0083B34B /* libsqlite3.dylib */; };
+		81CB7ECE1E25E9080083B34B /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB7ECD1E25E9080083B34B /* DataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811551431E2DCB8B00EC4682 /* VCBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCBase.swift; sourceTree = "<group>"; };
+		811551451E2DCBC500EC4682 /* VCTableBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableBase.swift; sourceTree = "<group>"; };
+		811551471E2DCF7800EC4682 /* VCColectionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCColectionBase.swift; sourceTree = "<group>"; };
+		8115514A1E2DCFD000EC4682 /* ViewSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSongs.swift; sourceTree = "<group>"; };
+		8115514C1E2DCFE200EC4682 /* ViewAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlbums.swift; sourceTree = "<group>"; };
+		8115514E1E2DCFF800EC4682 /* ViewArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtists.swift; sourceTree = "<group>"; };
+		811551501E2DD00E00EC4682 /* ViewPlaylists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaylists.swift; sourceTree = "<group>"; };
 		81CB7E9F1E25E7980083B34B /* Sql_music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sql_music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CB7EA21E25E7980083B34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81CB7EA41E25E7980083B34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,22 @@
 		81CB7EA91E25E7980083B34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CB7EAC1E25E7980083B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81CB7EAE1E25E7980083B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CB7EB51E25E7B70083B34B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		81CB7EB61E25E7B70083B34B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		81CB7EB71E25E7B70083B34B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		81CB7EB81E25E7B70083B34B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		81CB7EB91E25E7B70083B34B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		81CB7EBA1E25E7B70083B34B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		81CB7EBB1E25E7B70083B34B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		81CB7EBC1E25E7B70083B34B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		81CB7EBD1E25E7B70083B34B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		81CB7EBE1E25E7B70083B34B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		81CB7EBF1E25E7B70083B34B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		81CB7EC01E25E7B70083B34B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CB7EC81E25E8260083B34B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		81CB7ECA1E25E83D0083B34B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
+		81CB7ECC1E25E8990083B34B /* Sql_music-Briging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sql_music-Briging-Header.h"; sourceTree = SOURCE_ROOT; };
+		81CB7ECD1E25E9080083B34B /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataBase.swift; path = ../DataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +68,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CB7ECB1E25E83D0083B34B /* libsqlite3.dylib in Frameworks */,
+				81CB7EC91E25E8260083B34B /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		811551411E2DCB4500EC4682 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		811551421E2DCB5C00EC4682 /* Viewbase */ = {
+			isa = PBXGroup;
+			children = (
+				811551431E2DCB8B00EC4682 /* VCBase.swift */,
+				811551451E2DCBC500EC4682 /* VCTableBase.swift */,
+				811551471E2DCF7800EC4682 /* VCColectionBase.swift */,
+			);
+			name = Viewbase;
+			sourceTree = "<group>";
+		};
+		811551491E2DCF7E00EC4682 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8115514A1E2DCFD000EC4682 /* ViewSongs.swift */,
+				8115514C1E2DCFE200EC4682 /* ViewAlbums.swift */,
+				8115514E1E2DCFF800EC4682 /* ViewArtists.swift */,
+				811551501E2DD00E00EC4682 /* ViewPlaylists.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		81CB7E961E25E7980083B34B = {
 			isa = PBXGroup;
 			children = (
+				81CB7ECC1E25E8990083B34B /* Sql_music-Briging-Header.h */,
+				81CB7ECA1E25E83D0083B34B /* libsqlite3.dylib */,
 				81CB7EA11E25E7980083B34B /* Sql_music */,
 				81CB7EA01E25E7980083B34B /* Products */,
+				81CB7EC71E25E8260083B34B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,46 @@
 		81CB7EA11E25E7980083B34B /* Sql_music */ = {
 			isa = PBXGroup;
 			children = (
+				811551491E2DCF7E00EC4682 /* Views */,
+				811551421E2DCB5C00EC4682 /* Viewbase */,
+				811551411E2DCB4500EC4682 /* Database */,
+				81CB7EB41E25E7B70083B34B /* fmdb */,
 				81CB7EA21E25E7980083B34B /* AppDelegate.swift */,
 				81CB7EA41E25E7980083B34B /* ViewController.swift */,
 				81CB7EA61E25E7980083B34B /* Main.storyboard */,
 				81CB7EA91E25E7980083B34B /* Assets.xcassets */,
 				81CB7EAB1E25E7980083B34B /* LaunchScreen.storyboard */,
+				81CB7ECD1E25E9080083B34B /* DataBase.swift */,
 				81CB7EAE1E25E7980083B34B /* Info.plist */,
 			);
 			path = Sql_music;
+			sourceTree = "<group>";
+		};
+		81CB7EB41E25E7B70083B34B /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				81CB7EB51E25E7B70083B34B /* FMDatabase.h */,
+				81CB7EB61E25E7B70083B34B /* FMDatabase.m */,
+				81CB7EB71E25E7B70083B34B /* FMDatabaseAdditions.h */,
+				81CB7EB81E25E7B70083B34B /* FMDatabaseAdditions.m */,
+				81CB7EB91E25E7B70083B34B /* FMDatabasePool.h */,
+				81CB7EBA1E25E7B70083B34B /* FMDatabasePool.m */,
+				81CB7EBB1E25E7B70083B34B /* FMDatabaseQueue.h */,
+				81CB7EBC1E25E7B70083B34B /* FMDatabaseQueue.m */,
+				81CB7EBD1E25E7B70083B34B /* FMDB.h */,
+				81CB7EBE1E25E7B70083B34B /* FMResultSet.h */,
+				81CB7EBF1E25E7B70083B34B /* FMResultSet.m */,
+				81CB7EC01E25E7B70083B34B /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		81CB7EC71E25E8260083B34B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81CB7EC81E25E8260083B34B /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CB7EC61E25E7B70083B34B /* Info.plist in Resources */,
 				81CB7EAD1E25E7980083B34B /* LaunchScreen.storyboard in Resources */,
 				81CB7EAA1E25E7980083B34B /* Assets.xcassets in Resources */,
 				81CB7EA81E25E7980083B34B /* Main.storyboard in Resources */,
@@ -137,8 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811551461E2DCBC500EC4682 /* VCTableBase.swift in Sources */,
+				8115514D1E2DCFE200EC4682 /* ViewAlbums.swift in Sources */,
+				81CB7EC11E25E7B70083B34B /* FMDatabase.m in Sources */,
 				81CB7EA51E25E7980083B34B /* ViewController.swift in Sources */,
+				8115514B1E2DCFD000EC4682 /* ViewSongs.swift in Sources */,
+				811551481E2DCF7800EC4682 /* VCColectionBase.swift in Sources */,
+				81CB7EC51E25E7B70083B34B /* FMResultSet.m in Sources */,
+				811551511E2DD00E00EC4682 /* ViewPlaylists.swift in Sources */,
+				81CB7EC31E25E7B70083B34B /* FMDatabasePool.m in Sources */,
 				81CB7EA31E25E7980083B34B /* AppDelegate.swift in Sources */,
+				811551441E2DCB8B00EC4682 /* VCBase.swift in Sources */,
+				81CB7EC21E25E7B70083B34B /* FMDatabaseAdditions.m in Sources */,
+				8115514F1E2DCFF800EC4682 /* ViewArtists.swift in Sources */,
+				81CB7ECE1E25E9080083B34B /* DataBase.swift in Sources */,
+				81CB7EC41E25E7B70083B34B /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +382,13 @@
 				DEVELOPMENT_TEAM = LGTFHWXLRR;
 				INFOPLIST_FILE = Sql_music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pnh.Sql-music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/MacbookPro/Desktop/Desktop/TestSwift/SQLite/Sql_music/Sql_music-Briging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -277,8 +400,13 @@
 				DEVELOPMENT_TEAM = LGTFHWXLRR;
 				INFOPLIST_FILE = Sql_music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pnh.Sql-music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/MacbookPro/Desktop/Desktop/TestSwift/SQLite/Sql_music/Sql_music-Briging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +430,7 @@
 				81CB7EB31E25E7980083B34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

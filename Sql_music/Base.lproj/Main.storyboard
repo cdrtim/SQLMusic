@@ -1,26 +1,138 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BDk-Ta-6Q0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="bO2-ji-oDA">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="BDk-Ta-6Q0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NZ2-8S-y8g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IaW-Cj-Vuw" kind="relationship" relationship="rootViewController" id="6V4-Qm-4Be"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNY-EM-ejO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1089" y="-101"/>
+        </scene>
+        <!--PLAYLISTS-->
+        <scene sceneID="goO-XW-KPn">
+            <objects>
+                <viewController id="oa4-20-bSj" customClass="ViewPlaylists" customModule="Sql_music" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="ID4-mB-NNR"/>
+                        <viewControllerLayoutGuide type="bottom" id="DEX-Ne-1EF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="6L8-uk-NXm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="PLAYLISTS" id="cQX-39-2hl"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBf-aW-I1y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-132" y="956"/>
+        </scene>
+        <!--ARTISTS-->
+        <scene sceneID="XSO-QH-cph">
+            <objects>
+                <viewController id="4pc-ey-GeB" customClass="ViewArtists" customModule="Sql_music" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Brt-35-wq4"/>
+                        <viewControllerLayoutGuide type="bottom" id="1iA-yl-TGk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kxp-BQ-Mhd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ARTISTS" id="DKr-Ho-feh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2X-WH-j6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822" y="956"/>
+        </scene>
+        <!--ALBUMS-->
+        <scene sceneID="pwu-LV-ULo">
+            <objects>
+                <viewController id="uVy-2S-o03" customClass="ViewAlbums" customModule="Sql_music" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dtU-tg-a9c"/>
+                        <viewControllerLayoutGuide type="bottom" id="nyn-hW-8YS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CKz-yF-wYM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ALBUMS" id="a7o-3v-bRU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="di2-hP-Jk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="226"/>
+        </scene>
+        <!--SONGS-->
+        <scene sceneID="Dbg-wB-kyG">
+            <objects>
+                <viewController id="7kI-Eo-4Wf" customClass="ViewSongs" customModule="Sql_music" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="06f-uW-rDg"/>
+                        <viewControllerLayoutGuide type="bottom" id="d2n-nC-yOG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HZj-JR-dyD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SONGS" id="9dy-Bc-o33"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVs-QY-ioq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="-429"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iYP-hw-PGX">
+            <objects>
+                <tabBarController id="IaW-Cj-Vuw" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6RH-DB-NyD">
+                        <barButtonItem key="leftBarButtonItem" image="btn_add" id="pBb-KD-5n8">
+                            <color key="tintColor" red="0.99165939329999997" green="1" blue="0.97928906130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="btn_search" id="xNe-0j-GaM">
+                            <color key="tintColor" red="0.99165939329999997" green="1" blue="0.97928906130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="d2M-Ot-DWd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uVy-2S-o03" kind="relationship" relationship="viewControllers" id="bwG-xI-xz1"/>
+                        <segue destination="7kI-Eo-4Wf" kind="relationship" relationship="viewControllers" id="j6b-ar-rnR"/>
+                        <segue destination="oa4-20-bSj" kind="relationship" relationship="viewControllers" id="nD6-Xn-sxv"/>
+                        <segue destination="4pc-ey-GeB" kind="relationship" relationship="viewControllers" id="EyL-xR-08e"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyS-B6-liy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="-100"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_add" width="30" height="30"/>
+        <image name="btn_search" width="30" height="30"/>
+    </resources>
 </document>
